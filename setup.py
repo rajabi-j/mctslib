@@ -33,5 +33,5 @@ setup(
     packages=find_packages('src'),
     package_dir={'': 'src'},
     ext_modules=find_ext_modules(**ext_options),
-    install_requires=['pybind11']
+    install_requires=['pybind11~=2.6.1']
 )
